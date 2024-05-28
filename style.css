@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+body{
+    overflow-x: hidden;
+}
+.nav{
+    z-index: 1000;
+    padding:20px;
+    background-color: black;
+    border-bottom-right-radius: 15px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.nav ul{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    list-style-type: none;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#home{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.homepic{
+    width:300px;
+    height:300px;
+}
+h1{
+    font-size: 30px;
+    color:rgb(20, 165, 165);
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+    color:rgb(17, 141, 75);
+    margin-bottom: 10px;
+}
+.btn{
+    color: rgb(16, 17, 17);
+    background-color: rgb(124, 239, 62);
+    padding:5px;
+}
+#about,#features{
+    margin:0px 20px;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+.topic{
+    color: black;
+    padding:0px;
+}
+.featureflex{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.feature{
+    border: 1px solid black;
+    height:auto;
+    background-image: linear-gradient(to right bottom,rgb(199, 16, 16),rgb(141, 189, 10));
+    align-items: center;
+    padding:50px 10px;
+    border-radius: 15px;
+}
+h3{
+    font-size: 25px;
+    padding:15px 0px;
+    color:aqua;
+}
+.topic1{
+    color:white;
+}
+#contact{
+    height:100vh;
+    margin:20px;
+    display: flex;
+    align-items: center;
+}
+label{
+    font-size:25px;
+    margin-left:20px;
+}
+input,textarea{
+    background-color: rgb(158, 224, 252);
+    font-size: 18px;
+    margin-left:20px;
+    border-radius: 5px;
+    padding:7px
+}
+.btn1{
+    color: rgb(16, 17, 17);
+    background-color: rgb(186, 250, 151);
+    padding:10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(170, 247, 247);
+    width:100%;
+    padding:5px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    border-radius: 10px;
+}
+footer p{
+    margin:0px;
+    color:black;
+    font-weight: 100;
+
+}
+
+@media only screen and (max-width:768px)
+{
+ #about{
+    width:100%;
+    text-align: center;
+ }
+}

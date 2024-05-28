@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="content" data-aos="fade-right" data-aos-duration="1500">
+            <h1>Welcome to the Education Platform ...</h1>
+            <p>Your journey to a brighter future starts here</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+        <img src="home.jpg" class="homepic" data-aos="fade-left" data-aos-duration="1500">
+    </section>
+    <section id="about" data-aos="slide-right" data-aos-duration="1500">
+        <div>
+            <h1>About Us</h1>
+            <p class="topic">We are dedicated to providing high-quality education resources and personalized learning
+                experiences. Our
+                platform offers a variety of courses across different fields to help you achieve your learning goals.
+            </p>
+            <p class="topic">Our mission is to make learning accessible to everyone, everywhere. We believe in the power
+                of education to
+                transform lives and communities.</p>
+            <p class="topic">Join our community of learners and start your journey towards personal and professional
+                growth.</p>
+        </div>
+    </section>
+    <section id="features">
+        <div>
+            <h1>Features</h2>
+                <div class="featureflex">
+                    <div class="feature" data-aos="flip-left" data-aos-duration="1500">
+                        <div>
+                            <h3>Interactive Courses</h3>
+                            <p class="topic1">Engage with our interactive courses designed to provide a hands-on
+                                learning experience. Our
+                                courses include videos, quizzes, and practical projects to enhance your skills.</p>
+                        </div>
+                    </div>
+                    <div class="feature" data-aos="flip-down" data-aos-duration="1500">
+                        <div>
+                            <h3>Expert Instructors</h3>
+                            <p class="topic1">Learn from industry experts who bring real-world experience to the
+                                classroom. Our instructors are
+                                passionate about teaching and committed to helping you succeed.</p>
+                        </div>
+                    </div>
+                    <div class="feature" data-aos="flip-right" data-aos-duration="1500">
+                        <div>
+                            <h3>Certification</h3>
+                            <p class="topic1">Upon course completion, receive certifications to showcase your skills and
+                                knowledge. Our
+                                certifications are recognized by leading companies and institutions.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="contact" data-aos="zoom-in" data-aos-duration="1500">
+        <div>
+            <h1>Contact Us</h1>
+            <p class="topic1">If you have any questions or need further information, feel free to get in touch with us.
+                We are here to help you.</p>
+            <form>
+                <label for="name">Name :</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                <button type="submit" class="btn1">Submit</button><br>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Chandra Mouli. All rights reserved.</p>
+    </footer>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
